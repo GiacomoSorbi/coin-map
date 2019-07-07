@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<header
+  className="options"
+>
+  <div
+    className="input-field"
+  >
+    <label
+      htmlFor="limit"
+    >
+      Maximum returned matches
+    </label>
+    <input
+      id="limit"
+      max={16000}
+      min={0}
+      onChange={[MockFunction]}
+      type="number"
+      value={500}
+    />
+  </div>
+  <div
+    className="input-field"
+  >
+    <label
+      htmlFor="lat1"
+    >
+      Minimum Latitude
+    </label>
+    <input
+      id="lat1"
+      max={99}
+      min={-90}
+      onChange={[MockFunction]}
+      type="number"
+      value={0}
+    />
+  </div>
+  <div
+    className="input-field"
+  >
+    <label
+      htmlFor="lat2"
+    >
+      Maximum Latitude
+    </label>
+    <input
+      id="lat2"
+      max={90}
+      min={1}
+      onChange={[MockFunction]}
+      type="number"
+      value={100}
+    />
+  </div>
+  <div
+    className="input-field"
+  >
+    <label
+      htmlFor="lon1"
+    >
+      Minimum Longitude
+    </label>
+    <input
+      id="lon1"
+      max={-1}
+      min={-180}
+      onChange={[MockFunction]}
+      type="number"
+      value={-90}
+    />
+  </div>
+  <div
+    className="input-field"
+  >
+    <label
+      htmlFor="lon2"
+    >
+      Maximum Longitude
+    </label>
+    <input
+      id="lon2"
+      max={180}
+      min={-89}
+      onChange={[MockFunction]}
+      type="number"
+      value={0}
+    />
+  </div>
+</header>
+`;

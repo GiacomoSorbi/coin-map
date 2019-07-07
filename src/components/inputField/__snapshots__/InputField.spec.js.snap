@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="input-field"
+>
+  <label
+    htmlFor="pippi"
+  >
+    test input for Pippi
+  </label>
+  <input
+    id="pippi"
+    min={0}
+    onChange={[MockFunction]}
+    placeholder="Pippi number here..."
+    type="number"
+  />
+</div>
+`;
+
+exports[`renders correctly 2`] = `
+<div
+  className="input-field"
+>
+  <label
+    htmlFor="pappa"
+  >
+    test input for Pappa
+  </label>
+  <input
+    id="pappa"
+    onChange={[MockFunction]}
+    placeholder="Pappa email here..."
+    type="email"
+  />
+</div>
+`;

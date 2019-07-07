@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
 import { parseFilters } from './utils';
+import Options from './components/options';
 
 const App = () => {
   const [data, setData] = useState({
@@ -59,6 +60,11 @@ const App = () => {
 
   return (
     <div className="app">
+      <Options
+        filters={filters}
+        onChangeFilters={onChangeFilters}
+        categories={data.categories}
+      />
       <p>{data.loading && 'Loading...'}</p>
       {data.error && JSON.stringify(data.error)}
       <p>
