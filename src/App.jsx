@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
+import { parseFilters } from './utils';
 
 const App = () => {
   const [data, setData] = useState({
@@ -40,7 +41,9 @@ const App = () => {
   useEffect(() => {
     setData({ ...data, loading: true });
     fetch(
-      `https://cors-anywhere.herokuapp.com/https://coinmap.org/api/v1/venues/?mode=list`
+      `https://cors-anywhere.herokuapp.com/https://coinmap.org/api/v1/venues/?mode=list&${parseFilters(
+        filters
+      )}`
     )
       .then(res => {
         if (!res.ok) {
