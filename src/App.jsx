@@ -3,6 +3,7 @@ import './App.css';
 import { parseFilters } from './utils';
 import Options from './components/options';
 import DataRenderer from './components/dataRenderer';
+import MultiSelect from './components/multiSelect';
 
 const App = () => {
   const [data, setData] = useState({
@@ -73,7 +74,13 @@ const App = () => {
           data.venues.length &&
           `Found ${data.venues && data.venues.length} different venues`}
       </p>
-      <DataRenderer venues={data.venues} />
+      <div className="world-map-selector">
+        <MultiSelect
+          options={data.categories.map((label, id) => ({ label, id }))}
+          onChange={onChangeCategoryFilter}
+        />
+        <DataRenderer venues={data.venues} />
+      </div>
     </div>
   );
 };

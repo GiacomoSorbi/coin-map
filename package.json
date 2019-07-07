@@ -7,6 +7,7 @@
     "pnp": true
   },
   "dependencies": {
+    "@kenshooui/react-multi-select": "^1.1.3",
     "d3": "^5.9.7",
     "d3-geo": "^1.11.6",
     "gh-pages": "^2.0.1",
