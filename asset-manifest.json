@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/coin-map/static/css/main.2cce8147.chunk.css",
-    "main.js": "/coin-map/static/js/main.382fa049.chunk.js",
-    "main.js.map": "/coin-map/static/js/main.382fa049.chunk.js.map",
+    "main.css": "/coin-map/static/css/main.dd57eb97.chunk.css",
+    "main.js": "/coin-map/static/js/main.eef9bc8f.chunk.js",
+    "main.js.map": "/coin-map/static/js/main.eef9bc8f.chunk.js.map",
     "runtime~main.js": "/coin-map/static/js/runtime~main.1ba1251b.js",
     "runtime~main.js.map": "/coin-map/static/js/runtime~main.1ba1251b.js.map",
-    "static/js/2.c4a13e6f.chunk.js": "/coin-map/static/js/2.c4a13e6f.chunk.js",
-    "static/js/2.c4a13e6f.chunk.js.map": "/coin-map/static/js/2.c4a13e6f.chunk.js.map",
+    "static/css/2.33ddfd2b.chunk.css": "/coin-map/static/css/2.33ddfd2b.chunk.css",
+    "static/js/2.37817dd4.chunk.js": "/coin-map/static/js/2.37817dd4.chunk.js",
+    "static/js/2.37817dd4.chunk.js.map": "/coin-map/static/js/2.37817dd4.chunk.js.map",
     "index.html": "/coin-map/index.html",
-    "precache-manifest.3a37429127c4eabce2b75470541fb3d2.js": "/coin-map/precache-manifest.3a37429127c4eabce2b75470541fb3d2.js",
+    "precache-manifest.414900a9a8f91d8aa433796841c9a200.js": "/coin-map/precache-manifest.414900a9a8f91d8aa433796841c9a200.js",
     "service-worker.js": "/coin-map/service-worker.js",
-    "static/css/main.2cce8147.chunk.css.map": "/coin-map/static/css/main.2cce8147.chunk.css.map",
-    "static/media/logo.svg": "/coin-map/static/media/logo.5d5d9eef.svg"
+    "static/css/2.33ddfd2b.chunk.css.map": "/coin-map/static/css/2.33ddfd2b.chunk.css.map",
+    "static/css/main.dd57eb97.chunk.css.map": "/coin-map/static/css/main.dd57eb97.chunk.css.map"
   }
 }
