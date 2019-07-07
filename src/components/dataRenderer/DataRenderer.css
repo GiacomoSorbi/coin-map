@@ -1,8 +1,7 @@
 .data-container {
   background: white;
   height: 60vh;
-  width: 60vw;
-  margin: auto;
+  width: 70vw;
 }
 
 .data-container svg {
