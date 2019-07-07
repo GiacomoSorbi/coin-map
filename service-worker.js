@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/coin-map/precache-manifest.874043d5b88a1293d2c0debd81a3e8bf.js"
+  "/coin-map/precache-manifest.af2ce7c5db82540db8a14823abaa6c1d.js"
 );
 
 self.addEventListener('message', (event) => {
