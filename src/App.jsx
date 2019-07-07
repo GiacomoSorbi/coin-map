@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './App.css';
 import { parseFilters } from './utils';
 import Options from './components/options';
+import DataRenderer from './components/dataRenderer';
 
 const App = () => {
   const [data, setData] = useState({
@@ -72,6 +73,7 @@ const App = () => {
           data.venues.length &&
           `Found ${data.venues && data.venues.length} different venues`}
       </p>
+      <DataRenderer venues={data.venues} />
     </div>
   );
 };

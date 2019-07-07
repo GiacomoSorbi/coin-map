@@ -1,0 +1,26 @@
+.data-container {
+  background: white;
+  height: 60vh;
+  width: 60vw;
+  margin: auto;
+}
+
+.data-container svg {
+  background: #383c44;
+}
+
+.d3map-region {
+  fill: #787ca4;
+  stroke: #aaf;
+}
+
+.d3map-graticule {
+  fill: none;
+  stroke: #888;
+  stroke-opacity: 0.5;
+  stroke-width: 0.5px;
+}
+
+.d3map-marker {
+  fill: #ff0;
+}
